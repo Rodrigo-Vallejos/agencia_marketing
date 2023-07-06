@@ -1,3 +1,6 @@
+# Varios
+package-lock.json
+
 # Created by https://www.toptal.com/developers/gitignore/api/react,django,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,django,python
 
@@ -25,7 +28,8 @@ media
 
 # Distribution / packaging
 .Python
-# build/
+static/
+build/
 develop-eggs/
 dist/
 downloads/
@@ -139,6 +143,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+Temp/
 
 # Spyder project settings
 .spyderproject
