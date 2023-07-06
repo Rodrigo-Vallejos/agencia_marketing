@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Routes>
           {/* Error Display */}
-          <Route path="*" element={<Error404 />} />
+          <Route path="*" element={<Error404/>} />
 
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
         </Routes>
       </Router>
     </Provider>
