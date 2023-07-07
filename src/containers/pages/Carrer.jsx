@@ -1,17 +1,16 @@
 import Navbar from "components/navigations/Navbar";
 import Footer from "components/navigations/Footer";
 import Layout from "hoc/layouts/Layout";
-import Header from "components/Home/Header";
 
-function Home(){
+function Carrer(){
     return(
         <Layout>
             <Navbar/>
             <div className="pt-28">
-                <Header/>
+                Carrer
             </div>
             <Footer/>
         </Layout>
     )
 }
-export default Home; 
+export default Carrer; 
